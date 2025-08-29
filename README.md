@@ -1,20 +1,23 @@
-# JWT Decoder
-#Link: https://spontaneous-alfajores-c3584c.netlify.app/
+Here’s a **clean, polished rewrite** of your README with proper formatting, one-line dependency installation, and corrected sections:
 
+```markdown
+# JWT Decoder
+
+**Live Demo:** [https://spontaneous-alfajores-c3584c.netlify.app/](https://spontaneous-alfajores-c3584c.netlify.app/)
 
 A simple React application to **decode JSON Web Tokens (JWT)** and display their payload in a readable format.  
-This tool is useful for developers who want to inspect JWTs during development and debugging.
-
-link: https://spontaneous-alfajores-c3584c.netlify.app/
-
+Additionally, the app **detects and displays the user’s location** including IP, city, state/province, country, and country flag.  
+This tool is useful for developers who want to inspect JWTs and understand user location for debugging or testing purposes.
 
 ---
 
 ## Features
 - Decode JWT tokens instantly  
 - View **Header**, **Payload**, and **Signature** separately  
+- Fetch and display user **location details** (IP, city, state, country, flag)  
 - Clean UI built with React and React Icons  
 - Fully client-side; no backend required  
+
 
 ---
 
@@ -28,21 +31,7 @@ link: https://spontaneous-alfajores-c3584c.netlify.app/
 ---
 
 ## Project Structure
-jwt-decoder/
-│
-├── public/ # Static assets
-├── src/ # Source code
-│ ├── components/ # Reusable React components
-│ ├── App.js # Main app component
-│ ├── index.js # Entry point
-│ └── styles/ # SCSS files
-│
-├── package.json # Project dependencies & scripts
-└── README.md # Project documentation
-
-
-
----
+```
 
 ## Installation & Setup
 
@@ -50,18 +39,31 @@ jwt-decoder/
 ```bash
 git clone https://github.com/your-username/jwt-decoder.git
 cd jwt-decoder
+````
 
-**###2. Install dependencies**
-###Dependencies
-jwt-decode ^4.0.0
-react-icons ^5.5.0
-sass ^1.91.0
+### 2. Install dependencies
 
+```bash
+npm install react@^19.1.1 react-dom@^19.1.1 react-scripts@5.0.1 jwt-decode@^4.0.0 react-icons@^5.5.0 web-vitals@^2.1.4 @testing-library/dom@^10.4.1 @testing-library/jest-dom@^6.8.0 @testing-library/react@^16.3.0 @testing-library/user-event@^13.5.0 sass@^1.91.0
+```
 
-###3. Start the development server
+### 3. Start the development server
+
+```bash
 npm start
+```
 
+The app will run on **[http://localhost:3000](http://localhost:3000)** by default.
 
-The app will run on http://localhost:3000
- by default.
+---
 
+## Usage
+
+1. Enter a valid JWT in the input field.
+2. Click **Decode**.
+3. View the decoded **Header**, **Payload**, and **Signature**.
+
+---
+
+## License
+Any one is free is to use as they wish.
