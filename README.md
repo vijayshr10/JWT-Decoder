@@ -1,9 +1,7 @@
-Here’s a **clean, polished rewrite** of your README with proper formatting, one-line dependency installation, and corrected sections:
+# JWT Decoder 
 
-```markdown
-# JWT Decoder
+## Live Demo: https://spontaneous-alfajores-c3584c.netlify.app/
 
-**Live Demo:** [https://spontaneous-alfajores-c3584c.netlify.app/](https://spontaneous-alfajores-c3584c.netlify.app/)
 
 A simple React application to **decode JSON Web Tokens (JWT)** and display their payload in a readable format.  
 Additionally, the app **detects and displays the user’s location** including IP, city, state/province, country, and country flag.  
@@ -30,8 +28,7 @@ This tool is useful for developers who want to inspect JWTs and understand user 
 
 ---
 
-## Project Structure
-```
+
 
 ## Installation & Setup
 
